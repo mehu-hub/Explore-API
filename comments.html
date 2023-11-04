@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comments</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        #comments-container{
+        #comments-container {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-gap: 20px;
         }
-        .comment{
+
+        .comment {
             background-color: rgb(41, 122, 41);
             color: white;
             padding: 20px;
@@ -19,13 +21,15 @@
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1 class="text-center text-4xl mt-5 font-bold text-gray-600">Comments !</h1>
     </header>
     <main>
         <section class="container mx-auto mt-10">
-            <h2 class="container mx-auto text-2xl font-bold mb-5 uppercase text-green-800">This comments data showing in Dynamicly</h2>
+            <h2 class="container mx-auto text-2xl font-bold mb-5 uppercase text-green-800">This comments data showing in
+                Dynamicly</h2>
             <div id="comments-container">
 
             </div>
@@ -33,4 +37,5 @@
     </main>
     <script src="JS/comments.js"></script>
 </body>
+
 </html>
