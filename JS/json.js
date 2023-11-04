@@ -3,7 +3,6 @@ const stringify = JSON.stringify(user);
 // console.log(stringify)
 
 
-
 const shop = {
     owner: 'Mehedi',
     address: {
